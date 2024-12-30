@@ -91,7 +91,7 @@ class EmailVerifier(
         mail.setSubject(subject)
         mail.setContent("Verification code: $secretCode")
 
-        val sendGrid = SendGrid.create("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")
+        val sendGrid = SendGrid.create("App won't work without the sendgrid API key here. Removed temporarily.")
         val task = SendTask(sendGrid)
         val response = task.send(mail)
 
@@ -106,8 +106,8 @@ class EmailVerifier(
         return true
 
         /*
-        // val sg = SendGrid("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")
-        // val sg = SendGrid.create("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")
+        // val sg = SendGrid("App won't work without the sendgrid API key here. Removed temporarily.")
+        // val sg = SendGrid.create("App won't work without the sendgrid API key here. Removed temporarily.")
         val request = Request()
         try {
             request.method = Method.POST
