@@ -1,5 +1,7 @@
 # Navigation App for University of Waterloo
 
+[🎥 **View Demo Here**](https://youtu.be/HgO7-DJSpcg)
+
 ## 📜 Project Overview
 This project is a navigation application designed to enhance the experience of students and staff at the University of Waterloo. It provides efficient pathfinding within the MC and DC buildings, with features that support scalability, accessibility, and usability. The application combines modern UI/UX design with robust functionality, ensuring a seamless navigation experience.
 
